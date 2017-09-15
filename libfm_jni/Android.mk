@@ -16,6 +16,7 @@ LOCAL_C_INCLUDES := $(JNI_H_INCLUDE) \
     frameworks/base/include/media
 
 LOCAL_SHARED_LIBRARIES := \
+    libandroid_runtime \
     libcutils \
     libdl \
     liblog \
